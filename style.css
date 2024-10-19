@@ -1,0 +1,111 @@
+body{
+    font-family: 'Raleway';
+}
+.centralizar{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    margin: 10px 10px;
+}
+.imagens-escola{
+    height: 150px;
+    width: 150px;
+}
+.conteiner-lado-a-lado{
+
+    display: flex;
+    flex-direction: row;
+}
+.habilidades{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+}
+.ul-habilidades{
+    list-style: none;
+}
+.li-habilidades{
+    font-weight: bolder;
+    font-size: large;
+    padding: 10px;
+}
+.imagens-projetos{
+    height: 320px;
+    width: 320px;
+}
+.projetos-conteiner{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+.botao-projetos{
+    width: 315px ;
+    margin-top: 10px;
+    background-color:#3064b3;
+    font-weight: bold;
+    color: white;
+    border: none;
+    height: 35px;
+    transition-duration: 0.4s;
+}
+.botao-projetos:hover{
+    background-color: #102c56;
+    
+}
+h6{
+    text-align: center;
+    font-size: 20px;
+    margin: 15px;
+}
+.li-projetos{
+    text-align: left;
+}
+input{
+    width: 300px;
+}
+h3{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    font-size: 35px;
+}
+.icones{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-right: 20px;
+    color: white;
+    
+}
+footer{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 200px;
+    background-color:#3064b3;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+   
+}
+nav ul li{
+    flex: 1;
+    text-align: center;
+    margin-top: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.4s;
+    
+}
+nav{
+    background-color: #3064b3;
+    height: 60px;
+}
+nav ul li a:hover{
+    color: #102c56;
+}
